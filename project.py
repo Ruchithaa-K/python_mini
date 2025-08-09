@@ -77,6 +77,8 @@ while True:
     elif choice == "7":
         my_tuple = tuple(map(int, input("Enter numbers separated by space: ").split()))
         print("Tuple:", my_tuple)
+        sets=set(my_tuple)
+        print("Sets:", sets)
 
     elif choice == "8":
         print("Exiting program. Goodbye!")
@@ -85,3 +87,4 @@ while True:
 else:
         print("Invalid choice! Please enter a number between 1-8.")
 
+print("hello")
